@@ -13,6 +13,17 @@
         padding:5px 15px;
         border-radius: 5px; 
         text-decoration: none;}
+
+    .player-card {  
+      border: thin green solid;
+      width: 49%; 
+      text-decoration: none;}
+
+    .computer-card {
+      border: thin red solid;
+      width: 49%;
+      text-decoration: none;
+    }
   </style>
 </head>
 
@@ -34,18 +45,21 @@
       Play Scissors
     </a>
   </div>
-
-  <h2 style="color: green;">
-    We played rock!
+<div class="player-card">
+  <h2>
+    <em>We</em> <strong>played </strong><a href="https://www.google.com">rock!
   </h2>
-
-  <h2 style="color: red;">
+  </div>
+<div class="computer-card">
+  <h2>
     They played paper!
   </h2>
-
-  <h2 style="color: red;">
+</div>
+<div class="card">
+  <h2>
     We lost!
   </h2>
+  </div>
 
   <a href="/">
     Rules
