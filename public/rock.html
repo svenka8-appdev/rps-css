@@ -13,6 +13,7 @@
   }
     .row {
       display: flex;
+      justify-content: space-between;
     }
     .button { color: teal; 
         border: 1px teal solid;
@@ -25,11 +26,10 @@
       width: 49%; 
       text-decoration: none;}
 
-    .computer-card {
+    .computer-card {  
       border: thin red solid;
-      width: 49%;
-      text-decoration: none;
-    }
+      width: 49%; 
+      text-decoration: none;}
   </style>
 </head>
 
@@ -53,29 +53,31 @@
   </div>
 
 <div class ="row">
+
     <div class="player-card">
       <h2>
         <em>We</em> <strong>played </strong><a href="https://www.google.com">rock!
       </h2>
     </div>
-
-  
     <div class="computer-card">
       <h2>
         They played paper!
       </h2>
     </div>
+
+
 </div> <! --closes class row -->
 
+<div>
   <h2>
     We lost!
   </h2>
+</div>
 
-  <div>
-
+<div>
   <a href="/">
     Rules
   </a>
-  </div>
+</div>
 </body>
 </html>
