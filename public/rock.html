@@ -5,52 +5,13 @@
 
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
-
-  <style>
-
-  *{
-    /*border: thin red dashed;*/
-  }
-
-  body{
-      font-family:Calibri, Helvetica, sans-serif;
-  }
-    .row {
-      display: flex;
-      justify-content: space-between;
-    }
-    .button { 
-        color: teal; 
-        border: 1px teal solid;
-        border-radius: 5px; 
-        text-decoration: none;
-        width: 100%;
-        display: inline-block;
-        text-align: center;
-        padding-top: 5px;
-        padding-bottom:5px;
-        }
-
-    .player-card {  
-      border: thin green solid;
-      width: 49%; 
-      text-decoration: none;}
-
-    .computer-card {  
-      border: thin red solid;
-      width: 49%; 
-      text-decoration: none;}
-
-    .one-third {
-      width: 32%;
-      justify:center;
-    }
-  </style>
-</head>
+ <link rel="stylesheet" href="my_styles.css">
+ <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+ </head>
 
 <body>
 
-  <div class="row">
+  <div class="row mb">
     <div class="one-third">
       <a class="button" href="/rock" >
         Play Rock
@@ -70,7 +31,7 @@
     </div>
   </div> <! -- this closes our option card -->
 
-<div class ="row">
+<div class ="row mb">
     <div class="player-card">
       <h2>
         <em>We</em> <strong>played</strong> <a href="https://www.google.com"> rock!</a>
@@ -85,10 +46,12 @@
 
 </div> <! --closes class row -->
 
-<div>
-  <h2>
-    We lost!
-  </h2>
+<div class="row-center mb">
+  <div class="outcome-card">
+    <h2>
+      We lost!
+    </h2>
+  </div>
 </div>
 
 <div>

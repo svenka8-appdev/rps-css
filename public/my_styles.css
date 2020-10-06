@@ -1,0 +1,52 @@
+*{
+    /*border: thin red dashed;*/
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Space Mono', monospace;
+      }
+    .row {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .row-center {
+      display: flex;
+      justify-content: center;
+    }
+
+    .mb {
+       margin-bottom: 10px;
+    }
+    .button { 
+        color: teal; 
+        border: 1px teal solid;
+        border-radius: 5px; 
+        text-decoration: none;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom:5px;
+        }
+    .outcome-card { 
+        background-color:pink
+        border: thin red solid;
+        width:66%;
+ 
+        }
+    .player-card {  
+      border: thin green solid;
+      width: 49%; 
+      text-decoration: none;}
+
+    .computer-card {  
+      border: thin red solid;
+      width: 49%; 
+      text-decoration: none;}
+
+    .one-third {
+      width: 32%;
+      justify:center;
+    }
